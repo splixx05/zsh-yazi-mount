@@ -6,17 +6,19 @@
 #
 # Author: r!cky
 # License: MIT
-# GitHub: https://github.com/splixx05/zsh-mnt
+# GitHub: https://github.com/splixx05/zsh-yazi-mount
 #
 # Requirements:
-# - bash
+# - bash/zsh
+# - Oh-My-Zsh
+# - yazi
 # - udisksctl
 # - lsblk
-# - yazi (https://github.com/sxyazi/yazi)
+# - noto-fonts-emoji (or something similar for icons)
 #
 # Usage:
 # clone the repo into "$ZSH/custom/plugins/" and activate it on your zshrc under "plugins", e.g.:
-# plugins=(git ... zsh-mnt ...)
+# plugins=(git ... zsh-yazi-mount ...)
 #
 # Features:
 # - Lists only removable USB partitions (/dev/sdX)
