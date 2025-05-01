@@ -21,7 +21,7 @@ A lightweight Bash script to mount USB partitions via `udisksctl`, open them in
 1. Clone or copy the script:
 
    ```bash
-   git clone https://github.com/splixx05/zsh-mnt.git "$ZSH/custom/plugins/"
+   git clone https://github.com/splixx05/zsh-yazi-mount.git "$ZSH/custom/plugins/zsh-yazi-mount"
    ```
 
 2. Activate the plugin in your /.zshrc under "plugins" like so:
