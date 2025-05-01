@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# --- This script uses the target mountpoint as a root and is still in progress,
-# so it comes with no warranty of success or security ! ---
-
 MOUNTPOINT="$HOME/ex/phone"
 
 if [ ! -d "$MOUNTPOINT" ]; then

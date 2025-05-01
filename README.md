@@ -18,25 +18,25 @@ A lightweight Bash script to mount USB partitions via `udisksctl`, open them in
 
 ## 🚀 Installation & Usage
 
-Clone the repo into your OMZ custom plugin folder:
+1. Clone or copy the script:
 
    ```bash
-   git clone https://github.com/splixx05/zsh-yazi-mount.git "$ZSH/custom/plugins/"
+   git clone https://github.com/splixx05/zsh-mnt.git "$ZSH/custom/plugins/"
    ```
 
-And activate the plugin in your /.zshrc under "plugins" like so:
+2. Activate the plugin in your /.zshrc under "plugins" like so:
 
 ```bash
-  plugins=(git ... zsh-yazi-mount ...)
+  plugins=(git ... zsh-mnt ...)
 ```
 
-Or clone it where you want and run the installation script:
+or run the installation script from anywhere:
 
 ```bash
-./install.sh
+  ./install.sh
 ```
 
-## ⚡ Usage
+3. Usage in terminal:
 
 **For USB type this**
 
@@ -49,6 +49,8 @@ Or clone it where you want and run the installation script:
 ```bash
   $ :phone
 ```
+
+4. Browse the mounted device with yazi – once you quit yazi, the device will be automatically unmounted.
 
 ## 📋 Requirements
 
