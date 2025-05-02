@@ -20,20 +20,14 @@ A lightweight Bash script to mount USB partitions via `udisksctl`, open them in
 
 1. Clone or copy the script:
 
-   ```bash
-   git clone https://github.com/splixx05/zsh-yazi-mount.git "$ZSH/custom/plugins/zsh-yazi-mount"
-   ```
+```bash
+git clone https://github.com/splixx05/zsh-yazi-mount.git "$ZSH/custom/plugins/zsh-yazi-mount"
+```
 
 2. Activate the plugin in your /.zshrc under "plugins" like so:
 
 ```bash
   plugins=(git ... zsh-mnt ...)
-```
-
-or run the installation script from anywhere:
-
-```bash
-  ./install.sh
 ```
 
 3. Usage in terminal:
@@ -59,6 +53,7 @@ or run the installation script from anywhere:
 - yazi
 - udisksctl
 - lsblk
+- gum
 - noto-fonts-emoji (or something similar for icons)
 
 Make sure your user has permission to use udisksctl (usually no sudo required for mounting USB devices).
