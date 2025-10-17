@@ -4,7 +4,7 @@ A lightweight Bash script to mount USB partitions via `udisksctl`, open them in
 [`yazi`](https://github.com/sxyazi/yazi), and unmount them afterward – safe, clean, and user-friendly.
 
 > Note:
-> This repository is currently not inactive. It is neither maintained nor further developed. Requests will not be processed. Ideas can be submitted, but a timely response should not be expected. Thank you for your understanding.
+> This repository is currently inactive. It is neither maintained nor further developed. Requests will not be processed. Ideas can be submitted, but a timely response should not be expected. Thank you for your understanding.
 
 ---
 
